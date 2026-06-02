@@ -1,0 +1,6 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 4,
+  "python.defaultInterpreterPath": "python",
+  "files.encoding": "utf8"
+}
