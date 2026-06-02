@@ -58,7 +58,26 @@
           <option value="expense">支出</option>
           <option value="income">収入</option>
         </select>
-        <input type="text" name="category" placeholder="カテゴリ（食費など）" required>
+        <select name="category" required>
+          <optgroup label="支出">
+            <option value="食費">食費</option>
+            <option value="日用品">日用品</option>
+            <option value="光熱費">光熱費</option>
+            <option value="通信費">通信費</option>
+            <option value="交通費">交通費</option>
+            <option value="医療費">医療費</option>
+            <option value="娯楽">娯楽</option>
+            <option value="衣服">衣服</option>
+            <option value="教育">教育</option>
+            <option value="外食">外食</option>
+          </optgroup>
+          <optgroup label="収入">
+            <option value="給与">給与</option>
+            <option value="副業">副業</option>
+            <option value="その他収入">その他収入</option>
+          </optgroup>
+          <option value="その他">その他</option>
+        </select>
         <input type="number" name="amount" placeholder="金額" required min="1">
         <input type="text" name="note" placeholder="メモ（任意）">
         <button type="submit">追加</button>
